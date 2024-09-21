@@ -1,0 +1,204 @@
+/* all setting */
+.noto-sans-jp- {
+  font-family: "Noto Sans JP", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.gowun-batang-regular {
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+html {
+    font-family: "Noto Sans JP", "system-ui";
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.flex {
+    display : flex;
+}
+.contents {
+    margin : 0 auto;
+    width : 90%;
+}
+@media only screen and (max-width: 768px){
+    .contents {
+        width : 100%;
+    }
+}
+.letter {
+    margin : 10px 0 10px 13px;
+}
+/* header */
+.welcome {
+    margin-bottom: 2%;
+    font-size: 150px;
+    text-align: center;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;      
+}
+h1 {
+    margin: 0;
+}
+.container {
+    margin-bottom: 10%;
+}
+.elements {
+    margin: auto;
+    margin-bottom: 6px;
+    background-color: black;;
+}
+header a {
+    flex-wrap: wrap;
+    font-size : 30px;
+    margin-right: 50px;
+    color : aqua;
+    text-decoration: none;
+}
+.title {
+    font-size: 40px;
+    position: relative;
+}
+.box {
+    border: 2% 2% 2% 2%;
+    border: solid 2px gray;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 768px){
+    .welcome {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/* profile */
+.profile_a{
+    width: 70%;
+}
+.profile_b{
+    width: 30%;
+}
+.leftBox{
+    width : 65%;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-left : 2%;
+}
+.rightBox{
+    width : 35%;
+    margin: auto;
+}
+#profile img {
+    height : 300px;
+    width: 300px;
+}
+
+.saitama{
+    text-decoration: none;
+    color: #7cfc00;
+    font-size: 20px;
+}
+
+.AtCoder {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .leftBox {
+        width : 100%;
+    }
+    .rightBox {
+        width : 100%;
+    }
+}
+/* background font */
+.heading {
+    font-size : 50px;
+    opacity : 0.2;
+    z-index: -1;
+    position: absolute;
+    font-family: "Gowun Batang", serif;
+    font-weight: 400;
+    font-style: normal;      
+}
+
+/* achievements */
+.column_a {
+    margin-bottom: 3%;
+    width : 70%;
+}
+.column_b {
+    margin: auto 0 auto 0;
+    width : 30%;
+}
+.images {
+    height : 70px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .column_a {    
+        width : 100%;
+    }
+    .column_b {
+        width : 100%;
+    }
+}
+
+/* access */
+#access a{
+    margin-left: 5%;    
+}
+#access img{
+    height : 120px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    #access img{
+        height: 60px;
+        width: 60px;
+        border-radius : 10px;
+    }
+    #access a {
+        margin-left : 7px;
+    }
+}
+/* footer */
+.footer {
+    background-color: black;
+    color : white;
+    margin : 0;
+    text-align: center;
+}
+
+/* pageTop */
+.pagetop {
+    height : 50px;
+    width : 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #fff;
+    border: solid 2px #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.pagetop__arrow{
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #000;
+    border-right: 3px solid #000;
+    transform: translateY(20%) rotate(-45deg);
+}
