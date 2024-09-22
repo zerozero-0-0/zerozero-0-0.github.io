@@ -21,12 +21,14 @@ html {
 }
 .flex {
     display : flex;
+    justify-content: center;
 }
 .constFlex {
     display: flex;
 }
 
 .letter {
+    text-align: left;
     margin : 10px 0 10px 13px;
 }
 /* header */
@@ -100,17 +102,23 @@ header a {
 /* profile */
 .leftBox{
     width : 65%;
-    margin: auto;
-    margin-bottom: 3%;
-    margin-left : 2%;
+    position: relative;
 }
 .rightBox{
     width : 35%;
-    margin: auto;
 }
 #profile img {
-    height : 300px;
-    width: 300px;
+    height: 80%;
+    width: 80%;
+    margin:auto;
+    margin-top: 5%;
+}
+@media screen and (max-width: 767px) {
+    #profile img{
+        height : 60%;
+        width : 60%;
+        margin : auto;
+    }
 }
 
 .saitama{
@@ -160,12 +168,13 @@ header a {
     width : 70%;
 }
 .column_b {
-    margin: auto 0 auto 0;
+    margin: auto;
     width : 30%;
 }
-.images {
+#Achievement img {
     height : 70px;
-    
+    width : 70px;
+    margin-right : 5px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -178,7 +187,9 @@ header a {
     }
     #Achievement img{
         height: 60px;
-        margin-right: 2%
+        width: 60px;
+        margin-right: 2%;
+        margin-bottom: 7%;
     }
 }
 
@@ -203,6 +214,7 @@ header a {
     .flex {
         display: flex;
         flex-flow: column;
+        justify-content: center;
     }
 }
 /* footer */
