@@ -163,17 +163,21 @@ header a {
 }
 
 /* achievements */
+#achievements .box{
+    flex-wrap: wrap;
+}
 .column_a {
     margin-bottom: 3%;
-    width : 70%;
+    margin-right : 3%;
+    width : auto;
 }
 .column_b {
     margin: auto;
-    width : 30%;
+    width : auto;
 }
-#Achievement img {
-    height : 70px;
+.column_b img {
     width : 70px;
+    height : 70px;
     margin-right : 5px;
 }
 
